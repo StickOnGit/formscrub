@@ -4,14 +4,15 @@
 The resulting .itpl file will always be treated as a new form with new form sections.
 This file can be imported over and over; it will always be treated as a new form."""
 print
-
+##u mad bro?
 def end():
 	print
 	sys.exit(0)
+##end u mad bro
+
 try:
-	import plistlib as PLIB
 	import sys
-	#import asdafa
+	import plistlib as PLIB
 except ImportError as reason:
 	print """\tCouldn't run formscrub because: {reason}.
 \tIf you're missing a module, you may need to download 'pip' or a similar Python package installer and then run 'pip install (missing module)'.
